@@ -68,7 +68,9 @@ public class DeadLock_Q9 {
 		Threadclass1 t1=new Threadclass1();
 		Threadclass2 t2=new Threadclass2();
 		Threadclass3 t3=new Threadclass3();
-
+		
+		System.out.println("made new changes to see if git pull is working");
+		
 		t1.start();
 		t2.start();
 		t3.start();
